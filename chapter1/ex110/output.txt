@@ -1,0 +1,6 @@
+
+Get "tps://golang.org": unsupported protocol scheme "tps"
+0.21s 1071472 https://jsonplaceholder.typicode.com/photos
+0.24s  447728 https://en.wikipedia.org/wiki/List_of_largest_cities
+0.46s   33482 https://godoc.org
+0.96s    4154 http://gopl.io
