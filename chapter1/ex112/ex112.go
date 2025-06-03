@@ -28,7 +28,7 @@ func main() {
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/count", counter)
 	http.HandleFunc("/lissajous", func(w http.ResponseWriter, r *http.Request) {
-
+		r.ParseForm()
 		cycles := r.Form.Get("cycles")
 		cyc, _ := strconv.Atoi(cycles)
 		lissajous(w, cyc)
